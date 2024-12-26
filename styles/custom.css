@@ -1,1 +1,14 @@
-/* Add custom rules here... */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card {
+    width: 10rem;
+    height: 5rem;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
